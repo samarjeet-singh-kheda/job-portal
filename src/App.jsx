@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./layouts/app-layout";
 import LandingPage from "./pages/landing";
-import Onbording from "./pages/onbording";
+import Onboarding from "./pages/onboarding";
 import JobListing from "./pages/job-listing";
 import JobPage from "./pages/job";
 import PostJob from "./pages/post-job";
@@ -20,10 +20,10 @@ const router = createBrowserRouter([
         element: <LandingPage />,
       },
       {
-        path: "/onbording",
+        path: "/onboarding",
         element: (
           <ProtectedRoute>
-            <Onbording />
+            <Onboarding />
           </ProtectedRoute>
         ),
       },
