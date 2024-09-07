@@ -43,7 +43,7 @@ function JobCard({
   }, [savedJob]);
 
   return (
-    <Card>
+    <Card className="flex flex-col">
       <CardHeader>
         <CardTitle>
           {job.title}
