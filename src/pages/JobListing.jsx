@@ -73,7 +73,7 @@ function JobListing() {
       >
         <Input
           type="text"
-          placeholders="Search Jobs by Title..."
+          placeholdera="Search Jobs by Title..."
           name="search-query"
           className="h-full flex-1 px-4 text-md"
         />
