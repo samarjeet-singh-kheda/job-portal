@@ -45,7 +45,7 @@ function JobCard({
   return (
     <Card className="flex flex-col">
       <CardHeader>
-        <CardTitle>
+        <CardTitle className="flex justify-between">
           {job.title}
 
           {isMyJob && (
