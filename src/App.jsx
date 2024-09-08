@@ -52,7 +52,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/saved-job",
+        path: "/saved-jobs",
         element: (
           <ProtectedRoute>
             <SavedJobs />
