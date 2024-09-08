@@ -1,15 +1,15 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import AppLayout from "./layouts/app-layout";
-import LandingPage from "./pages/landing";
-import Onboarding from "./pages/onboarding";
-import JobListing from "./pages/job-listing";
-import JobPage from "./pages/job";
-import PostJob from "./pages/post-job";
-import SavedJobs from "./pages/saved-jobs";
-import MyJobs from "./pages/my-jobs";
+import AppLayout from "./layouts/appLayout";
+import LandingPage from "./pages/LandingPage";
+import Onboarding from "./pages/Onboarding";
+import JobListing from "./pages/JobListing";
+import JobPage from "./pages/Job";
+import PostJob from "./pages/PostJob";
+import SavedJobs from "./pages/SavedJobs";
+import MyJobs from "./pages/MyJobs";
 import "./App.css";
-import { ThemeProvider } from "./components/theme-provider";
-import ProtectedRoute from "./components/protected-route";
+import { ThemeProvider } from "./components/ThemeProvider";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 const router = createBrowserRouter([
   {
