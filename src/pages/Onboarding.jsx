@@ -7,7 +7,6 @@ import { useEffect } from "react";
 function Onboarding() {
   const { user, isLoaded } = useUser();
   const navigate = useNavigate();
-  console.log(user);
 
   const handleRoleSelection = async (role) => {
     await user
